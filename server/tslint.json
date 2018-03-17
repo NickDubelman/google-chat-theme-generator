@@ -1,15 +1,5 @@
 {
     "rules": {
-        "no-console": [
-            true,
-            "log",
-            "error",
-            "debug",
-            "info",
-            "time",
-            "timeEnd",
-            "trace"
-        ],
         "align": [
             true,
             "parameters",
