@@ -13,7 +13,7 @@
   },
   "scripts": {
     "server": "babel-node server",
-    "client": "echo 'client'",
+    "client": "yarn --cwd client start",
     "test": "echo \"Error: no test specified, TODO\" && exit 1"
   },
   "author": "Nick Dubelman",
