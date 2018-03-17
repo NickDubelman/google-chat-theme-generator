@@ -11,11 +11,13 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
+    "tslint": "^5.9.1",
     "typescript": "^2.7.2"
   },
   "scripts": {
-    "server": "tsc server/index.ts && babel-node server",
+    "server": "tsc -p server && babel-node server",
     "client": "yarn --cwd client start",
+    "server-lint": "tslint -p server",
     "test": "echo \"Error: no test specified, TODO\" && exit 1"
   },
   "author": "Nick Dubelman",
