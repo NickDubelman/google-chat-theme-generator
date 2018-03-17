@@ -1,0 +1,21 @@
+{
+  "name": "google-chat-theme-generator",
+  "version": "1.0.0",
+  "description": "Generate themes for Google Chat.",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "server": "babel-node server",
+    "client": "echo 'client'",
+    "test": "echo \"Error: no test specified, TODO\" && exit 1"
+  },
+  "author": "Nick Dubelman",
+  "license": "ISC"
+}
