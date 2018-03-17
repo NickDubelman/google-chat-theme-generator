@@ -1,11 +1,6 @@
-class Foobarbaz{
-    constructor(){
-        this.foo = 'foo'
-        this.bar = 'bar'
-        const baz = {foo: 'foo', bar: 'bar'}
-        const bang = { ...baz, bang: 'bang' }
-        console.log(this.foo, this.bar, baz, bang)
-    }
-}
+import express from 'express'
+const app = express()
 
-const foobarbaz = new Foobarbaz()
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(8080, async () => console.log('Example app listening on port 3000?'))
